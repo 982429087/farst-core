@@ -1,5 +1,5 @@
 import ElementPlus from 'element-plus'
-import farstCore from 'farst-core'
+import farstCore from '@farst/core'
 
 import VPApp, { NotFound, globals } from '../vitepress'
 import { define } from '../utils/types'

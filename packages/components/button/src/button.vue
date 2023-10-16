@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useSlots } from '@vue/runtime-core'
+import { useSlots } from 'vue'
 import {
   ElButton,
   buttonEmits as elButtonEmits,
@@ -22,7 +22,7 @@ import { useBindProps, useOnEmits } from '@farst-core/hooks'
 import { buttonEmits, buttonProps } from './button'
 
 defineOptions({
-  name: 'FtButton',
+  name: 'FarstButton',
 })
 
 const props = defineProps(buttonProps)

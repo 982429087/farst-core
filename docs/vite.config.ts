@@ -28,7 +28,7 @@ const alias: Alias[] = [
 if (process.env.DOC_ENV !== 'production') {
   alias.push(
     {
-      find: /^farst-core(\/(es|lib))?$/,
+      find: /^@farst\/core(\/(es|lib))?$/,
       replacement: path.resolve(projRoot, 'packages/farst-core/index.ts'),
     },
     {
@@ -46,7 +46,8 @@ export default defineConfig(async ({ mode }) => {
 
   const optimizeDeps = [...new Set([...epDeps, ...docsDeps])].filter(
     (dep) =>
-      !dep.startsWith('@types/') && !['@farst-core/metadata', 'farst-core'].includes(dep)
+      !dep.startsWith('@types/') &&
+      !['@farst-core/metadata', 'farst-core'].includes(dep)
   )
 
   optimizeDeps.push(
