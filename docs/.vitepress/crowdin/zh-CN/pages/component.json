@@ -5,6 +5,10 @@
       {
         "link": "/button",
         "text": "Button"
+      },
+      {
+        "link": "/renderer",
+        "text": "Renderer"
       }
     ]
   }
