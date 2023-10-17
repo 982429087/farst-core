@@ -11,7 +11,9 @@ lang: zh-CN
 :::demo
 
 renderer/basic
-
+>>>tabs
+[renderer/collection]
+>>>
 :::
 
 ## API
