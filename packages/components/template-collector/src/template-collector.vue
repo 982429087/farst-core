@@ -19,8 +19,6 @@ export default defineComponent({
       throw new Error('template-collector must have a type')
     }
     collection.set(props.type, slots.default)
-    console.log('走', props.type)
-
     return () => null
   },
 })
