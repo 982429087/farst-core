@@ -3,7 +3,7 @@ import { computed, defineComponent, provide } from 'vue'
 import { rendererEmits, rendererProps } from './renderer'
 import { RendererCollections } from './ctx'
 export default defineComponent({
-  name: 'FarstRenderer',
+  name: 'FarstCollection',
   props: rendererProps,
   emits: rendererEmits,
   setup(props, { slots }) {

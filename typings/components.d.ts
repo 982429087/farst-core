@@ -5,7 +5,7 @@ declare module '@vue/runtime-core' {
   // GlobalComponents for Volar
   export interface GlobalComponents {
     FarstButton: typeof import('../packages/farst-core')['FarstButton']
-    FarstRenderer: typeof import('../packages/farst-core')['FarstRenderer']
+    FarstCollection: typeof import('../packages/farst-core')['FarstCollection']
     FarstTemplateCollector: typeof import('../packages/farst-core')['FarstTemplateCollector']
   }
 }

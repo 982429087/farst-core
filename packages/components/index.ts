@@ -1,3 +1,3 @@
 export * from './button'
-export * from './renderer'
+export * from './collections'
 export * from './template-collector'
